@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #111;
+    --secondary-color: #fff;
+}
+
+/* ::selection {
+  
+  
+  } */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 200px;
+  background-color: var(--primary-color);
+}
+
+a:active {
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* UTILITY CLASSES */
+
+.remove-list-style {
+  list-style: none;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* WEBSITE STYLING */
+
+.component {
+    margin-top: 200px;
+}
+
+.component__code {
+    display: flex;
+    flex-direction: column;
+}
+
+.component__html {
+    margin: 50px 0;
+}
+
+.component__css,
+.component__html {
+    padding: 50px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* MEDIA QUERRIES */
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+} */
